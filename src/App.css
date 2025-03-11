@@ -1,0 +1,296 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0px;
+  background-color: #AFE4DE;
+  box-sizing: border-box;
+  height: auto;
+}
+#hero {
+
+  height: 400px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  background-image: url("public/image/Food1.jpg");
+ text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.hero-content h1 {
+  font-size: 24px;
+  margin: 0;
+  align-items: center;
+}
+
+
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#category {
+  background-color: white;
+ 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.category img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.category h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card-img-top {
+padding: auto;
+justify-content: center;
+}
+
+.fixed-img {
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+.animate-card {
+    transition: transform 1s ease-in-out;
+}
+
+.animate-card:hover {
+    transform: scale(1.04);
+}
+/*Dessert Prop*/
+.dessert-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.dessert-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn-success {
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #28a745;
+  opacity: 0.8;
+}
+
+/*veg*/
+.veg-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.veg-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn-success {
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #28a745;
+  opacity: 0.8;
+}
+/* Non Veg */
+.nonveg-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.nonveg-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn-danger {
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+  background-color: #dc3545;
+  opacity: 0.8;
+}
+
+/*navfoodie*/
+/* Dropdown appears on hover */
+.dropdown:hover .dropdown-menu {
+  display: inline-block;
+  margin-top: 0px;
+
+}
+
+/* Styling for dropdown items */
+.dropdown-menu {
+  transition: 1s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth hover effect */
+.dropdown-item:hover {
+  
+  background-color: #f8f9fa;
+  color: black;
+}
+.container-1{
+  margin-top: 80px;
+}
+
+/* Login Icon Styling */
+.login-icon {
+  width: 20px; /* Adjust size */
+  height: 20px;
+  object-fit: cover; /* Ensures the image fits well */
+  border-radius: 50%; /* Makes it fully round */
+  border: 2px solid white; /* Optional: White border for contrast */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow for a crisp look */
+  transition: transform 0.1s ease-in-out; /* Smooth hover effect */
+}
+
+/* Smooth transition */
+button, .btn {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Bubble effect on hover */
+.btn:hover {
+  transform: scale(1.1); /* Slightly enlarges the button */
+  box-shadow: 0 10px 20px rgba(255, 193, 7, 0.4); /* Adds a soft glow */
+}
+
+/* Login button */
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #212529;
+  border-color: #fff;
+}
+
+
+
+/* Dropdown hover effect */
+.dropdown-toggle:hover {
+  background-color: #ff9800;
+  color: white;
+  transform: scale(0.5);
+}
+
+/* Navbar links hover effect */
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important;
+  text-decoration: none;
+}
+
+/* Animated underline for links */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 50%;
+  background-color: #ffcc00;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+.item-card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.item-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.btn-sm {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.dropdown-toggle {
+  transition: none !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+.dropdown-menu {
+  transition: none !important;
+  transform: none !important;
+  animation: none !important;
+}
