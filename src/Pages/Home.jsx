@@ -33,6 +33,7 @@ function Home() {
             <section id="hero" className="text-center py-5 bg-dark text-light hero-section">
                 <div className="container">
                     <h1 className="display-4 fw-bold">Craving Something Delicious?</h1>
+                    <img src = "Food1.jpg"/>
                     <p className="lead">Discover the Best Food & Drinks. Order now at your location.</p>
                     <a href="#categories" className="btn btn-danger btn-lg"> 🍽️ Order Now</a>
                 </div>
