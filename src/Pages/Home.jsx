@@ -67,7 +67,7 @@ function Home() {
                     <div className="col-md-3 category-card">
                         <a href="/dessert" className="text-decoration-none">
                             <div className="card text-center p-3 bg-light category-hover">
-                                
+                                <img src="/image/Dessert..jpg" className="category-img" alt="Non-Veg Items" />
                                 <h5 className="mt-3 fw-bold text-dark">Desserts</h5>
                             </div>
                         </a>
